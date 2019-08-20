@@ -26,7 +26,7 @@ lines(subsetData$Sub_metering_2 ~ subsetData$DateTime, col = "red")
 lines(subsetData$Sub_metering_3 ~ subsetData$DateTime, col = "blue")
 
 ## add legend
-legend("topright", col = c("black","red","blue"), lty = 1, lwd = 2, 
+legend("topright", col = c("black","red","blue"), lty = 1, 
        legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 ## close device
